@@ -1,0 +1,177 @@
+.logo{
+    width: 139px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.top-nav-bar {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: 40px;
+}
+button{
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.top-btn{
+    border-radius: 25px;
+    margin-left: 150px;
+
+}
+
+p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    display: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+}
+
+button {
+    width: 199px;
+    height: 52px;
+    border-radius: 25px;
+    border: 0px solid #000;
+    background: #D9D9D9;
+    box-shadow: 6px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-content {
+  width: 608px;
+  height: 432px;
+  display: block;
+  margin-left: 30px;
+  margin-top: 33px;
+}
+
+.main-content h1{
+    width: 408px;
+    height: 167px;
+}
+
+.main-content p{
+    width: 595px;
+    height: 103px;
+    margin-left: 0px;
+
+}
+
+h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.12px;
+}
+
+.mockups{
+    position: absolute;
+    top: 100px;
+    left: 720px;
+    width: 549.767px;
+    height: 520px;
+    z-index: 2;
+
+}
+
+.bg-desk{
+    position: absolute;
+    left: 720px;
+    top: 100px;
+    width: 549.767px;
+    height: 520px;
+    z-index: 1;
+}
+
+.card-content .card-1 .card-2 .card-3 .card-4{
+    margin-left: 20px;
+    width: 301px;
+    height: 285px;
+    
+}
+
+.card-content{
+    display:flex;
+    margin-top: 180px;
+}
+
+.card-content p{
+    width: 301px;
+    height: 122px;
+    
+}
+
+.card-content h5,p{
+margin-left: 70px;
+}
+
+.card-content img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-left: 70px; 
+}
+
+.card-content .card-1 .card-2 .card-3 .card-4{
+    margin: 20px;
+    width: 72px;
+    height: 72px;
+}
+
+.menu-card {
+    width: 301px;
+    height: 285px;
+    display: flex;
+}
+
+.menu-card p{
+    width: 260px;
+    height: 108px;
+    flex-shrink: 0;
+}
+
+img{
+    width: 244.011px;
+    height: 170.473px;
+    margin-left: 70px;
+}
+
+
+.small-logo{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.footer-page {
+    width: 1440px;
+    height: 285px;
+    background: #2D314E;
+    margin-top: 100px;
+}
+
+.contact{
+    width: 306px;
+    height: 121px;
+    display:flex;
+    margin-left: 388px;
+    margin-top: 91px;
+    
+}
+.contact h6{
+    font-family: monospace;
+    color:white;
+    margin: 40px;
+}
+
+/*# sourceMappingURL=sass.css.map */

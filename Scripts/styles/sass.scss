@@ -1,0 +1,20 @@
+$elements: 'logo','top-nav-var','p','button',
+          'main-content','image-logo',
+          'card-content',
+          'menu-card',
+          'footer-page','home','blog';
+
+@mixin size($w,$h){
+    width: $w;
+    height: $h;
+}
+
+@each $elemnt in $elements{
+    .#{$elemnt}{
+        display: relative;
+        @include size($w: 100px, $h: 100px);
+  }
+}
+
+
+
